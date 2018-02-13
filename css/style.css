@@ -1,0 +1,58 @@
+body {
+  background: #333;
+  color: #db6606; }
+
+.navbar {
+  border-top: rgba(0, 0, 0, 0.5) 3px solid;
+  opacity: 0.9;
+  font-weight: 600; }
+  .navbar .nav-link {
+    transition: all 1s; }
+  .navbar .nav-link:hover {
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+header {
+  background: url("../img/background.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  header .dark-overlay {
+    background-color: rgba(33, 33, 33, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  header .home-inner {
+    padding-top: 300px;
+    min-height: 300px; }
+  header img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px rgba(33, 33, 33, 0.1);
+    -ms-transition: all 3s;
+    -webkit-transition: all 3s;
+    transition: all 3s; }
+  header img:hover {
+    -ms-transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5); }
+
+#aboutUs {
+  min-height: 700px; }
+  #aboutUs .lit {
+    font-size: 22px;
+    color: #333; }
+  #aboutUs .fa {
+    font-size: 10px;
+    margin-top: 10px; }
+  #aboutUs .p-c {
+    font-size: 20px; }
+  #aboutUs .martopimp {
+    margin-top: 50px; }
+  #aboutUs .martop {
+    margin-top: 30px; }
+  #aboutUs .martop1 {
+    margin-top: 20px; }

@@ -1,0 +1,88 @@
+$bg-color: #333 ;
+$font-color: rgba(219,102,6,1) ;
+$primary-color: rgba(0,0,0,0.5) ;
+$dark-overlay: rgba(33,33,33,0.4);
+$box-overlay: rgba(33,33,33,0.1);
+
+body{
+background: $bg-color;
+color: $font-color;
+}
+.navbar {
+border-top: $primary-color 3px solid;
+opacity: 0.9;
+font-weight: 600;
+.nav-link{
+transition: all 1s;
+}
+.nav-link:hover{
+  -ms-transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+}
+
+header{
+background: url("../img/background.jpeg") no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 700px;
+.dark-overlay{
+  background-color: $dark-overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+.home-inner{
+padding-top: 300px;
+min-height: 300px;
+}
+
+img{
+width: 100px;
+height: 100px;
+box-shadow:2px 2px $box-overlay ;
+-ms-transition: all 3s;
+-webkit-transition: all 3s;
+transition: all 3s;
+
+}
+img:hover{
+-ms-transform: scale(1.5,1.5);
+-webkit-transform: scale(1.5,1.5);
+transform: scale(1.5,1.5);
+}
+}
+#aboutUs{
+  min-height: 700px;
+
+
+
+.lit{
+font-size: 22px;
+color: $bg-color;
+
+
+}
+.fa{
+  font-size: 10px;
+  margin-top: 10px;
+}
+.p-c{
+  font-size: 20px;
+}
+.martopimp{
+  margin-top: 50px;
+}
+.martop{
+  margin-top: 30px;
+
+}
+.martop1{
+  margin-top: 20px;
+
+}
+}
